@@ -1,0 +1,38 @@
+default-kit: example
+kits:
+  example:
+    0:
+      material: DIAMOND_SWORD
+      name: "&bDiamond Sword"
+      lore: "&8Kit Item"
+      enchants:
+        sharpness: 3
+        unbreaking: 3
+        fire_aspect: 2
+      itemFlags:
+        - HIDE_UNBREAKABLE
+      unbreakable: true
+    1:
+      material: ENDER_PEARL
+      amount: 16
+    36:
+      material: DIAMOND_BOOTS
+      enchants:
+        protection: 2
+    37:
+      material: DIAMOND_LEGGINGS
+      enchants:
+        protection: 2
+    38:
+      material: DIAMOND_CHESTPLATE
+      enchants:
+        protection: 2
+    39:
+      material: DIAMOND_HELMET
+      enchants:
+        protection: 2
+    40:
+      material: SHIELD
+      itemFlags:
+        - HIDE_UNBREAKABLE
+      unbreakable: true
